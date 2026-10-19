@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 30px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #666;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+    color: #4f46e5;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+main h2 {
+    margin-bottom: 15px;
+}
+
+main h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+main hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+main ul {
+    padding-left: 25px;
+}
+
+main li {
+    margin-bottom: 8px;
+}
+
+main li a {
+    color: #4f46e5;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px 5px 5px 0;
+}
+
+button:hover {
+    background-color: #4f46e5;
+}
+
+input,
+textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#styleBox,
+#hoverBox {
+    padding: 25px;
+    margin: 20px 0;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#itemList,
+#taskList {
+    margin-top: 20px;
+}
+
+#taskList li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        gap: 5px;
+    }
+}
